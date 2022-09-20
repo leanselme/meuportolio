@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio Leandro F. Anselme</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <header class="container">
+            <div class="bloco">
+                <h1>Seja Bem-vindo!</h1>
+                <h1>Eu sou o Leandro!</h1>
+                <p>E esta página contém os meus trabalhos.</p>
+                <a href="#portfolio" type="button" class="cta">Portifólio</a>
+            </div>
+        </header>
+    </main>
+    <section id="background">
+        <header id="portfolio">
+            <h1>Este é o Meu Portifólio</h1>
+        </header>
+        <article>
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+
+                <!-- Imagens, numeração e texto -->
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="./Site-Flu-História.png" style="width:100%">
+                    <div class="text">Site - Flu História</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <a href="http://restauranteinocentes.com.br/"><img src="./Site-Bar-Inocentes.png"
+                            style="width:100%"></a>
+                    <div class="text">Site - Bar Inocentes</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="./Site-SF.png" style="width:100%">
+                    <div class="text">Site - Simulador de Financiamento</div>
+                </div>
+
+                <!-- Botão Anterior e Próximo -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <!-- Pontos -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </article>
+    </section>
+    <section class="contacts">
+        <h1>Contatos</h1>
+        <h2>&#9742; (11) 98015-6553</h2>
+        <figure>
+            <a href="https://www.linkedin.com/in/leandro-ferreira-aselme-a30ba6233/"><img src="./linkedin.png" alt="Ícone Linkedin" class="icon"></a>
+            <a href="https://github.com/leanselme"><img src="./github.png" alt="Ícone Github" class="icon"></a>
+            <a href="mailto:leanselme@gmail.com"><img src="./gmail.png" alt="ícone Gmail" class="icon"></a>
+        </figure>
+    </section>
+    <footer>&#169; Site Criado por Leandro Ferreira Anselme - 2022</footer>
+    <script type="text/javascript" src="./index.js"></script>
+</body>
+
+</html>
